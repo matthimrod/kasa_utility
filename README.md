@@ -8,11 +8,11 @@ My use case is to automatically turn off a space heater when my husband uses our
 
 Environment Variables:
 
-* KASA_USERNAME - the username to use for authentication
-* KASA_PASSWORD - the password to use for authentication
-* KASA_THRESHOLD - the threshold in amps
-* KASA_LOAD - the hostname or IP address of the smart device to monitor
-* KASA_SWITCH - the hostname or IP address of the smart device to turn off
+* `KASA_USERNAME` - the username to use for authentication
+* `KASA_PASSWORD` - the password to use for authentication
+* `KASA_THRESHOLD` - the threshold in amps
+* `KASA_LOAD` - the hostname or IP address of the smart device to monitor
+* `KASA_SWITCH` - the hostname or IP address of the smart device to turn off
 
 Crontab:
 
