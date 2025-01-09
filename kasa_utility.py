@@ -34,13 +34,13 @@ async def main(**kwargs: Unpack[_MainKwargs]):
 
     await switch_host.update()
     switch_state = switch_host.state_information['State']
-    switch_current = switch_host.state_information['Current consumption']
+    switch_current = switch_host.state_information['Current']
 
     logging.info('Switch device powered on: %s, current is: %s A', switch_state, switch_current)
 
     await load_host.update()
     load_state = load_host.state_information['State']
-    load_current = load_host.state_information['Current consumption']
+    load_current = load_host.state_information['Current']
 
     logging.info('Load device powered on: %s, current is: %s A', load_state, load_current)
 
